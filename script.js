@@ -42,7 +42,7 @@ function typeMessage() {
 
 
 
-    let typeSpeed = isDeleting ? 50 : 100;
+    let typeSpeed = isDeleting ? 30 : 50;
 
 
 
@@ -100,7 +100,7 @@ function initSlideshows() {
 
             slides[currentSlide].classList.add('active');
 
-        }, 2000 + (index * 500)); // Stagger the slideshows
+        }, 3000 + (index * 500)); // Stagger the slideshows
 
     });
 
